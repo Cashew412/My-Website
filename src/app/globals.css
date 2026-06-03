@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 250 250 252;
+  --surface: 255 255 255;
+  --elevated: 255 255 255;
+  --border: 226 228 234;
+  --ink: 17 22 38;
+  --muted: 90 98 120;
+  --faint: 138 146 166;
+  --brand: 79 70 229;
+  --brand-soft: 224 222 253;
+  --accent: 14 165 165;
+  --positive: 22 163 110;
+  --warning: 217 145 24;
+  --negative: 219 70 70;
+}
+
+.dark {
+  --bg: 8 10 20;
+  --surface: 16 19 33;
+  --elevated: 22 26 44;
+  --border: 38 43 66;
+  --ink: 233 236 246;
+  --muted: 158 166 190;
+  --faint: 110 118 142;
+  --brand: 129 124 255;
+  --brand-soft: 39 38 86;
+  --accent: 45 212 191;
+  --positive: 52 199 144;
+  --warning: 240 178 64;
+  --negative: 248 113 113;
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--ink));
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgb(var(--brand) / 0.22);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-container px-5 sm:px-8;
+  }
+  .surface-card {
+    @apply rounded-2xl border border-border bg-surface shadow-soft;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-border bg-elevated px-3 py-1 text-xs font-medium text-muted;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-bg disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn relative overflow-hidden bg-brand text-white shadow-glow hover:-translate-y-0.5 hover:bg-brand/90;
+  }
+  .btn-primary::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-130%) skewX(-18deg);
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.35), transparent);
+    transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .btn-primary:hover::after {
+    transform: translateX(130%) skewX(-18deg);
+  }
+  .btn-ghost {
+    @apply btn border border-border bg-surface text-ink hover:border-brand hover:text-brand;
+  }
+  .link-underline {
+    @apply relative after:absolute after:-bottom-0.5 after:left-0 after:h-px after:w-0 after:bg-current after:transition-all hover:after:w-full;
+  }
+}
+
+/* Gradient mesh used behind the hero */
+.mesh {
+  background:
+    radial-gradient(40% 50% at 15% 10%, rgb(var(--brand) / 0.20), transparent 70%),
+    radial-gradient(35% 45% at 85% 15%, rgb(var(--accent) / 0.16), transparent 70%),
+    radial-gradient(45% 55% at 70% 90%, rgb(var(--brand) / 0.12), transparent 70%);
+}
+
+.grid-fade {
+  background-image:
+    linear-gradient(to right, rgb(var(--border) / 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(var(--border) / 0.5) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 30%, transparent 75%);
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 30%, transparent 75%);
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, rgb(var(--ink)), rgb(var(--brand)) 45%, #e0a500 70%, rgb(var(--accent)));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-pan 7s ease infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Recharts tooltip theming */
+.recharts-default-tooltip {
+  background-color: rgb(var(--elevated)) !important;
+  border: 1px solid rgb(var(--border)) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 18px 40px -20px rgb(15 23 42 / 0.4) !important;
+  color: rgb(var(--ink)) !important;
+  padding: 10px 12px !important;
+}
+.recharts-tooltip-label {
+  color: rgb(var(--muted)) !important;
+  font-size: 12px !important;
+  margin-bottom: 4px !important;
+}
+.recharts-cartesian-axis-tick text {
+  fill: rgb(var(--faint)) !important;
+  font-size: 11px;
+}
+.recharts-cartesian-grid line {
+  stroke: rgb(var(--border) / 0.6) !important;
+}
+.recharts-legend-item-text {
+  color: rgb(var(--muted)) !important;
+}

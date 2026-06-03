@@ -1,0 +1,351 @@
+{
+  "site": {
+    "name": "Abdullah Qatu",
+    "url": "https://abdullahqatu.com",
+    "title": "Abdullah Qatu — Data & Analytics | Senior Consultant",
+    "description": "Data & analytics consultant who turns ambiguous business problems into decision-ready insight — ETL pipelines, data models, and executive dashboards that move metrics.",
+    "keywords": [
+      "Data Analyst",
+      "Analytics Consultant",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Data Engineering",
+      "Business Intelligence",
+      "Machine Learning",
+      "Amman Jordan"
+    ],
+    "locale": "en",
+    "ogImage": "/me.jpg"
+  },
+  "person": {
+    "name": "Abdullah Qatu",
+    "fullName": "Abdullah Taqieddin Khalil Qatu",
+    "role": "Data & Analytics",
+    "title": "Senior Consultant",
+    "headline": "Data & Analytics — turning messy data into decisions leaders trust.",
+    "tagline": "Data & Analytics · Senior Consultant",
+    "valueProp": "I translate ambiguous business problems into structured analytical solutions — from ETL pipelines and dimensional data models to executive dashboards that leaders actually use to decide.",
+    "subProp": "4+ years across forensics, FMCG, gaming, and enterprise BI. I obsess over the path from raw, multi-source data to a single, defensible number.",
+    "location": "Amman, Jordan",
+    "availability": "Open to senior analytics & consulting work",
+    "photo": "/me.jpg",
+    "resume": "/resume/Abdullah-Qatu-Resume.pdf",
+    "languages": [
+      { "name": "English", "level": "Native" },
+      { "name": "Arabic", "level": "Native" }
+    ],
+    "social": [
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/abdullah-qatu/", "handle": "in/abdullah-qatu", "icon": "linkedin" },
+      { "label": "Email", "href": "mailto:abdullahtqatu@gmail.com", "handle": "abdullahtqatu@gmail.com", "icon": "mail" }
+    ],
+    "contactEmail": "abdullahtqatu@gmail.com"
+  },
+  "stats": [
+    { "label": "Years in data & analytics", "value": "4", "suffix": "+", "detail": "Forensics, FMCG, gaming & BI" },
+    { "label": "Man-hours saved / week", "value": "50", "suffix": "", "detail": "VMI reporting automation" },
+    { "label": "Markets served by one model", "value": "7", "suffix": "", "detail": "GCC & Levant region" },
+    { "label": "Best ML model accuracy", "value": "97", "suffix": "%", "detail": "XGBoost, gaming domain" }
+  ],
+  "about": {
+    "narrative": [
+      "I'm a data-driven analyst and consultant who lives in the space between a vague business question and a clear, defensible answer. My job is to structure the problem, find and shape the right data, and deliver an output a decision-maker can act on with confidence.",
+      "I've done this across very different worlds — forensic investigations at EY, regional supply-chain analytics at Nestlé, machine-learning for mobile gaming at Babil Games, and custom BI for enterprise clients at Advanced Business Solutions. The common thread: converting messy, multi-source inputs into synthesized findings that hold up under scrutiny.",
+      "I care equally about the engineering (pipelines, data models, performance) and the communication (the chart, the framing, the one number that matters). The best analytics work is invisible — it just makes the right decision feel obvious."
+    ],
+    "knownFor": [
+      "Structuring ambiguous problems into clear, testable analytical frameworks",
+      "End-to-end delivery: data acquisition → modeling → dashboard → adoption",
+      "Dashboards executives actually open every morning",
+      "Translating between technical detail and business context"
+    ],
+    "principles": [
+      { "title": "Decision-first", "body": "Start from the decision that needs to be made, then work backward to the data and the visual." },
+      { "title": "Defensible by design", "body": "Every number can be traced to a source and a transformation. No black boxes." },
+      { "title": "Adoption is the metric", "body": "A dashboard nobody opens is a failed project. I design for the daily user." },
+      { "title": "Reusable foundations", "body": "Models and pipelines built to be reused across teams, not one-off reports." }
+    ]
+  },
+  "skillGroups": [
+    {
+      "name": "Languages & Query",
+      "icon": "code",
+      "skills": ["Python", "T-SQL", "MDX", "DAX"]
+    },
+    {
+      "name": "BI & Visualization",
+      "icon": "chart",
+      "skills": ["Microsoft Power BI", "Google Looker", "Data Visualization", "Dashboard Design"]
+    },
+    {
+      "name": "Data Engineering",
+      "icon": "pipeline",
+      "skills": ["Azure Data Factory", "Databricks", "ETL Pipelines", "Data Modeling", "Data Warehousing"]
+    },
+    {
+      "name": "Analytics & ML",
+      "icon": "spark",
+      "skills": ["XGBoost", "Supervised & Unsupervised ML", "Forecasting", "Statistical Analysis"]
+    },
+    {
+      "name": "Consulting & Delivery",
+      "icon": "compass",
+      "skills": ["Problem Structuring", "Hypothesis-Driven Thinking", "Financial Modeling", "Stakeholder Management", "Requirements Scoping"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "EY",
+      "logo": "EY",
+      "logoColor": "#FFE600",
+      "logoBg": "#2E2E38",
+      "img": "",
+      "tile": "",
+      "role": "Forensics Data Analyst",
+      "period": "Jan 2026 — Present",
+      "start": "2026-01",
+      "current": true,
+      "industry": "Professional Services / Forensics",
+      "summary": "Support complex business investigations with structured data analysis and risk identification across cross-functional engagements.",
+      "impact": [
+        "Translate ambiguous business requirements into clear technical deliverables and analytical frameworks for data-driven decisions and risk identification",
+        "Deliver structured analysis and reporting that underpins complex investigations and strategic recommendations",
+        "Convert messy, multi-source inputs into synthesized findings aligned with engagement objectives"
+      ],
+      "tools": ["Python", "SQL", "Data Analysis", "Risk Analytics", "Reporting"]
+    },
+    {
+      "company": "Nestlé",
+      "logo": "Nestlé",
+      "logoColor": "#FFFFFF",
+      "logoBg": "#63513D",
+      "img": "/logos/nestle.png",
+      "tile": "#ffffff",
+      "role": "Data Analytics Engineer",
+      "period": "Dec 2023 — Feb 2025",
+      "start": "2023-12",
+      "current": false,
+      "industry": "FMCG / Supply Chain",
+      "summary": "Owned end-to-end data products for multiple departments — from problem structuring to adoption — across a 7-market region.",
+      "impact": [
+        "Executed end-to-end data projects from problem structuring through delivery, designing analytical solutions for multiple departments",
+        "Built intuitive dashboards that turned complex multi-source datasets into actionable business insight",
+        "Implemented ETL pipelines and data models supporting structured analysis and reporting across the organization",
+        "Flagship VMI reporting product saved ~50 man-hours per week across 7 markets"
+      ],
+      "tools": ["Power BI", "Azure Data Factory", "SAP BW / MDX", "SQL", "Data Modeling", "DAX"]
+    },
+    {
+      "company": "Babil Games",
+      "logo": "Babil Games",
+      "logoColor": "#FFFFFF",
+      "logoBg": "#0b0b12",
+      "img": "/logos/babil.jpg",
+      "tile": "#0b0b12",
+      "role": "Database Developer & Data Science Associate",
+      "period": "Jun 2022 — Oct 2023",
+      "start": "2022-06",
+      "current": false,
+      "industry": "Mobile Gaming",
+      "summary": "Led machine-learning projects end to end and built the data warehousing layer that powered client-ready insight.",
+      "impact": [
+        "Led full ML projects from problem definition to model development and client presentation — delivered an XGBoost model with 97% accuracy",
+        "Built data warehouses and visualizations that synthesized complex business data into clear, client-ready insight",
+        "Communicated technical findings to senior management, translating model output into business context"
+      ],
+      "tools": ["Python", "XGBoost", "SQL", "Data Warehousing", "Machine Learning", "Visualization"]
+    },
+    {
+      "company": "Advanced Business Solutions",
+      "logo": "ABS",
+      "logoColor": "#FFFFFF",
+      "logoBg": "#0EA5E9",
+      "img": "/logos/abs.jpg",
+      "tile": "#ffffff",
+      "role": "Developer — BI Associate",
+      "period": "Jun 2020 — Jun 2023",
+      "start": "2020-06",
+      "current": false,
+      "industry": "Enterprise Software / Consulting",
+      "summary": "Turned ambiguous client requirements into custom analytics solutions and reliable, governed reporting.",
+      "impact": [
+        "Gathered and structured ambiguous client requirements into clear technical and analytical specifications",
+        "Extracted and modeled data from multiple sources to build custom analytics and client-ready reporting frameworks",
+        "Designed data validation and access-control via SQL stored procedures, ensuring data quality and consistency"
+      ],
+      "tools": ["T-SQL", "Stored Procedures", "Data Modeling", "BI Reporting", "Requirements Analysis"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Princess Sumaya University of Technology (PSUT)",
+      "degree": "B.Sc. — Business Information Technology",
+      "period": "Oct 2016 — Jun 2020",
+      "detail": "GPA 90.9 / 100",
+      "logo": "PSUT",
+      "logoBg": "#1E3A8A",
+      "logoColor": "#FFFFFF"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "vmi-inventory-analytics",
+      "title": "Vendor-Managed Inventory Analytics",
+      "client": "Global FMCG (Nestlé)",
+      "industry": "FMCG · Supply Chain",
+      "year": "2024",
+      "role": "Data Analytics Engineer — sole owner",
+      "featured": true,
+      "tagline": "One consolidated Power BI product replacing hours of manual data wrangling across 7 markets.",
+      "cover": "accent",
+      "stack": ["Power BI", "SAP BW / MDX", "Azure Data Factory", "SQL", "DAX", "Data Modeling"],
+      "metrics": [
+        { "label": "Man-hours saved / week", "value": "50" },
+        { "label": "Markets unified", "value": "7" },
+        { "label": "Manual extraction errors", "value": "0" }
+      ],
+      "pdf": "/projects/VMI-Inventory-Analytics-Case-Study.pdf",
+      "context": "A regional Vendor-Managed Inventory (VMI) team manages distributor stock cover across 7 markets — ensuring optimal replenishment by analyzing delivery schedules, demand, and sell-in / sell-out. Good decisions depend on accurate stock measures, accurate forecasts, and tight distributor engagement.",
+      "problem": "The team burned hours every week pulling data from multiple disconnected sources, then manually parsing, formatting, aggregating, and reconciling it before any decision could be made. The process was slow, error-prone, and inconsistent between markets.",
+      "approach": [
+        "Ran structured discovery with the VMI team to capture the business nuances and the few factors that actually drive their success.",
+        "Designed a single Power BI product consolidating every data source plus the transformations needed for full stock visibility.",
+        "Ingested Distributor Stock Cover (DSC) and Sell-In/Sell-Out (SISO) via MDX over the SAP BW connector.",
+        "Automated proposal (ARS) and Inter-Market Supply (IMS) target files through an Azure Data Factory pipeline into SQL, ending broken file connections.",
+        "Built a composite-key data model (distributor × SKU × date) and offset tables to show current / +1mo / +2mo IMS targets on a single row.",
+        "Validated against the legacy system to guarantee the new numbers were accurate and complete."
+      ],
+      "solution": "A standardized, self-serve report giving the whole region full visibility of stock cover, SISO trends, proposal cadence, and forecast targets — segmented by distributor and proposal, with time-series views (daily, MTD, monthly) and a tabular proposal view surfacing every KPI per SKU on one record.",
+      "impact": [
+        "≈50 man-hours per week returned to the team across all 7 markets.",
+        "Extraction / parsing / formatting errors effectively eliminated.",
+        "A single standardized view shared region-wide, improving communication and consistency.",
+        "A reusable data model other teams can build on for new use cases."
+      ],
+      "challenges": [
+        { "title": "Unclear requirements", "body": "Stakeholders weren't sure what they wanted, so meetings dragged. I used a tight set of guiding questions to converge on needs that were both valuable and technically feasible." },
+        { "title": "Complex calculations", "body": "IMS-target offsets and cross-table logic were hard. I worked through docs, forums, and brainstorming with domain experts to land robust solutions." },
+        { "title": "Unfamiliar MDX", "body": "I hadn't written MDX before. Studying the docs and existing statements got me to correct, performant queries." },
+        { "title": "Fragile cloud connections", "body": "Direct connections to cloud CSVs broke on every file change. Ingesting through an ADF pipeline into SQL made the connection seamless and durable." }
+      ],
+      "learnings": [
+        "Deep supply-chain (SCM) domain knowledge I can reuse on future projects.",
+        "A thorough, practical grasp of MDX and of designing table relationships.",
+        "Lock requirements with all parties before execution to cut rework.",
+        "How to motivate a cross-market team to carry a project over the line."
+      ],
+      "nextSteps": [
+        "Ship a multi-country roll-up dedicated to the team lead for cross-market inventory analysis.",
+        "Layer forecast-accuracy tracking and anomaly flags on top of the existing model.",
+        "Promote the composite-key model into a shared semantic layer for other analytics teams."
+      ]
+    },
+    {
+      "slug": "player-churn-ml",
+      "title": "Player Churn & Value Modeling",
+      "client": "Mobile Gaming (Babil Games)",
+      "industry": "Gaming · Data Science",
+      "year": "2023",
+      "role": "Data Science Associate — project lead",
+      "featured": false,
+      "tagline": "An XGBoost model reaching 97% accuracy, owned from problem definition to the client presentation.",
+      "cover": "violet",
+      "stack": ["Python", "XGBoost", "SQL", "Data Warehousing", "Feature Engineering"],
+      "metrics": [
+        { "label": "Model accuracy", "value": "97%" },
+        { "label": "Pipeline", "value": "End-to-end" },
+        { "label": "Audience", "value": "Senior mgmt" }
+      ],
+      "pdf": "",
+      "context": "In free-to-play mobile gaming, retention is everything. Leadership needed a reliable, explainable signal for which players were likely to churn so engagement and monetization could be targeted where they mattered.",
+      "problem": "Raw behavioral and transactional data lived across systems with no consolidated, model-ready foundation — and no shared definition of churn the business agreed on.",
+      "approach": [
+        "Defined the churn problem and success criteria with stakeholders before any modeling.",
+        "Built the data-warehouse layer and engineered behavioral / monetization features.",
+        "Trained and tuned an XGBoost classifier, reaching 97% accuracy on held-out data.",
+        "Translated model output into business framing and presented to senior management."
+      ],
+      "solution": "A reproducible modeling pipeline plus a clear, client-ready readout connecting model signals to concrete retention and monetization levers.",
+      "impact": [
+        "Delivered a 97%-accuracy churn model the business could trust.",
+        "Gave leadership an explainable, prioritized view of at-risk players.",
+        "Established a reusable warehousing + feature foundation for future models."
+      ],
+      "challenges": [
+        { "title": "No shared churn definition", "body": "Aligned stakeholders on a single, measurable definition before modeling to avoid rework." },
+        { "title": "Fragmented data", "body": "Built a consolidated warehouse layer so features were consistent and reproducible." }
+      ],
+      "learnings": [
+        "Explainability earns trust faster than raw accuracy with non-technical leaders.",
+        "The data foundation, not the algorithm, is usually the hard part."
+      ],
+      "nextSteps": [
+        "Monitor model drift and retrain on a schedule.",
+        "Connect predictions to an automated, A/B-tested engagement workflow."
+      ]
+    },
+    {
+      "slug": "enterprise-bi-foundations",
+      "title": "Custom BI & Governed Reporting",
+      "client": "Enterprise Clients (Advanced Business Solutions)",
+      "industry": "Enterprise · Business Intelligence",
+      "year": "2021",
+      "role": "BI Developer",
+      "featured": false,
+      "tagline": "Turning ambiguous client requirements into custom analytics and governed, trustworthy reporting.",
+      "cover": "sky",
+      "stack": ["T-SQL", "Stored Procedures", "Data Modeling", "BI Reporting"],
+      "metrics": [
+        { "label": "Data sources unified", "value": "Multiple" },
+        { "label": "Access control", "value": "Governed" },
+        { "label": "Data quality", "value": "Validated" }
+      ],
+      "pdf": "",
+      "context": "Established enterprise clients needed bespoke analytics, but arrived with ambiguous, shifting requirements and data scattered across systems.",
+      "problem": "Without structure, custom reporting becomes brittle: inconsistent numbers, no governance, and constant rework as requirements drift.",
+      "approach": [
+        "Elicited and structured ambiguous requirements into clear technical specifications.",
+        "Extracted and modeled data from multiple sources into a coherent reporting layer.",
+        "Implemented validation and access control through SQL stored procedures."
+      ],
+      "solution": "Custom analytics solutions and client-ready reporting frameworks with built-in data quality and access governance.",
+      "impact": [
+        "Reliable, governed reporting clients could trust.",
+        "Consistent data quality enforced at the database layer.",
+        "Reusable specifications that reduced churn on future requests."
+      ],
+      "challenges": [
+        { "title": "Shifting requirements", "body": "Structured discovery and written specs kept scope and numbers stable." }
+      ],
+      "learnings": [
+        "Governance designed in early is far cheaper than bolted on later."
+      ],
+      "nextSteps": [
+        "Templatize the reporting layer for faster client onboarding."
+      ]
+    }
+  ],
+  "certifications": [
+    { "title": "Machine Learning Specialization", "issuer": "DeepLearning.AI · Stanford (Coursera)", "date": "Mar 2023", "category": "Machine Learning", "file": "/certs/machine-learning-specialization.pdf", "type": "pdf", "featured": true },
+    { "title": "Advanced Learning Algorithms", "issuer": "DeepLearning.AI (Coursera)", "date": "Mar 2023", "category": "Machine Learning", "file": "/certs/advanced-learning-algorithms.pdf", "type": "pdf", "featured": false },
+    { "title": "Supervised ML: Regression & Classification", "issuer": "DeepLearning.AI (Coursera)", "date": "Feb 2023", "category": "Machine Learning", "file": "/certs/supervised-machine-learning.pdf", "type": "pdf", "featured": false },
+    { "title": "Unsupervised Learning, Recommenders & RL", "issuer": "DeepLearning.AI (Coursera)", "date": "Mar 2023", "category": "Machine Learning", "file": "/certs/unsupervised-learning-rl.pdf", "type": "pdf", "featured": false },
+    { "title": "Calculus", "issuer": "Coursera", "date": "Feb 2023", "category": "Mathematics", "file": "/certs/calculus.pdf", "type": "pdf", "featured": false },
+    { "title": "Linear Algebra", "issuer": "Coursera", "date": "Feb 2023", "category": "Mathematics", "file": "/certs/linear-algebra.pdf", "type": "pdf", "featured": false },
+    { "title": "Strategic Thinking", "issuer": "Professional Development", "date": "Mar 2024", "category": "Business", "file": "/certs/strategic-thinking.pdf", "type": "pdf", "featured": true },
+    { "title": "Introduction to Design Thinking", "issuer": "Professional Development", "date": "Aug 2024", "category": "Business", "file": "/certs/design-thinking.pdf", "type": "pdf", "featured": false },
+    { "title": "Global Business Skills Certification", "issuer": "Professional Development", "date": "Sep 2024", "category": "Business", "file": "/certs/global-business-skills.png", "type": "image", "featured": false },
+    { "title": "Fundamentals of Digital Marketing", "issuer": "Google Digital Garage", "date": "Feb 2020", "category": "Business", "file": "/certs/digital-marketing-fundamentals.pdf", "type": "pdf", "featured": false },
+    { "title": "IELTS — Band 8.0", "issuer": "British Council / IDP", "date": "Sep 2023", "category": "Language", "file": "/certs/ielts-2023.pdf", "type": "pdf", "featured": true },
+    { "title": "Coursera Verified Certificate", "issuer": "Coursera", "date": "Sep 2022", "category": "Machine Learning", "file": "/certs/coursera-2D4NREHAQ3MC.pdf", "type": "pdf", "featured": false },
+    { "title": "Coursera Verified Certificate", "issuer": "Coursera", "date": "Sep 2022", "category": "Machine Learning", "file": "/certs/coursera-5L3T6KHTNLRU.pdf", "type": "pdf", "featured": false },
+    { "title": "Academic Recognition", "issuer": "AARU", "date": "2020", "category": "Academic", "file": "/certs/aaru-cert.jpeg", "type": "image", "featured": false },
+    { "title": "Academic Certificate", "issuer": "PSUT", "date": "2020", "category": "Academic", "file": "/certs/academic-cert-1.jpeg", "type": "image", "featured": false },
+    { "title": "Academic Certificate", "issuer": "PSUT", "date": "2020", "category": "Academic", "file": "/certs/academic-cert-2.jpeg", "type": "image", "featured": false }
+  ],
+  "dashboards": {
+    "note": "All figures below are synthetic, generated for demonstration only. They mirror the structure and themes of real work but contain no confidential or client data.",
+    "countries": ["Jordan", "KSA", "Oman", "Qatar", "Kuwait", "Lebanon", "Iraq"],
+    "categories": ["Petcare", "Coffee & Beverages", "Culinary", "CPW", "Dairy", "Nutrition", "Confectionery"]
+  }
+}
