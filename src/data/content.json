@@ -70,7 +70,7 @@
     {
       "name": "Languages & Query",
       "icon": "code",
-      "skills": ["Python", "T-SQL", "MDX", "DAX"]
+      "skills": ["T-SQL", "Python", "JavaScript", "Node.js"]
     },
     {
       "name": "BI & Visualization",
